@@ -9,7 +9,7 @@ echo ""
 echo "(c) 2020 Fortinet LATAM CSE - Author: ranton@fortinet.com"
 echo ""
 if [ $# -eq 0 ]; then
-	echo "Usage: ./make-fpoc.sh \$fortipoc-1.x.xzip "
+	echo "Usage: ./make-fpoc.sh fortipoc-1.x.xzip "
 else
 
 export GOVC_INSECURE=1
